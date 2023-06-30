@@ -10,7 +10,6 @@ public class RestserviceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication app = new SpringApplication(RestserviceApplication.class);
-		app.setDefaultProperties(Collections.singletonMap("server.address", "0.0.0.0"));
 		app.run(args);
 	}
 
